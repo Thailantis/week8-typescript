@@ -111,7 +111,7 @@ class Archer extends Character implements BowAndArrowAttacker, TunicDefender {
     }
 }
 
-const ogre = new Ogre("Gronk");
+const ogre = new Ogre("Shrek");
 ogre.attack();
 ogre.defend();
 ogre.collectGold(10);
