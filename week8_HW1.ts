@@ -9,7 +9,7 @@ type CTStudent ={
     pet: string
 }
 
-let student1 = {
+let student1: CTStudent = {
     id: 'GMK435&g62L00',
     name: 'John Smith',
     age: 24,
@@ -18,7 +18,7 @@ let student1 = {
     pet: 'dog'
 }
 
-let student2= {
+let student2: CTStudent = {
     id: '6KGS%54GmlY76',
     name: 'Jenny Hawthorne',
     age: 28,
@@ -26,7 +26,7 @@ let student2= {
     projectsCompleted:["HTML Portfolio"],
 }
 
-let student3 = {
+let student3: CTStudent = {
     id: '6KGS%54GmlY76',
     name: 'Neil Goldman',
     age: 57,
@@ -100,10 +100,10 @@ enum Category {
 }
 
 type ShopItem = {
-    id: number,
-    price: number,
-    description: string,
-    color?: string,
+    id: number;
+    price: number;
+    description: string;
+    color?: string;
     category: Category;
     keywords: string[];
 };
