@@ -1,11 +1,11 @@
 // Question 1: Create a type to represent the following instances of `CTStudent` Also declare three 3 students below as type `CTStudent` and set their values
 
 type CTStudent ={
-    id: number,
+    id: string,
     name: string,
     age: number,
     isTired: boolean,
-    projectsCompleted: string,
+    projectsCompleted: string[],
     pet: string
 }
 
