@@ -125,8 +125,8 @@ console.log(`${peon.name} has ${peon.gold} gold.`);
 
 const knight = new Knight("Sir Percival");
 knight.attack();
-Knight.defend();
-Knight.collectGold(7);
+knight.defend();
+knight.collectGold(7);
 console.log(`${knight.name} has ${knight.gold} gold.`);
 
 const archer = new Archer("Artemis");
